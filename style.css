@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background: #f0f8ff;
+    background-image: url("./9555741.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.clickbutton{
+    padding: 20px 40px;
+    font-size: 35px;
+    background-color: rgb(34, 25, 14);
+    color: rgb(200, 228, 253);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.clickbutton:disabled{
+    background-color: rgb(121, 119, 117);
+    cursor: not-allowed;
+
+}
+
+.info{
+margin-top: 20px;
+font-size: 20px;
+}
+
+.startbutton{
+    padding: 20px 40px;
+    font-size: 20px;
+border-radius: 20px;
+border: none;
+color: deepskyblue;
+}
+
+.clickbutton {
+    animation-name: FadeIn;
+animation-duration: 2s;
+animation-timing-function: ease-out;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes FadeIn {
+    0%{
+opacity: 0;
+transform: translateX(-20px);
+    }
+100%{
+opacity: 1;
+transform: translateX(0);
+}
+
+}
+
+.startbutton {
+    animation-name: FadeIn2;
+animation-duration: 2s;
+animation-timing-function: ease-out;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes FadeIn2 {
+    0%{
+opacity: 0;
+transform: translateX(20px);
+    }
+100%{
+opacity: 1;
+transform: translateX(0px);
+}
+
+}
